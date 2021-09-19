@@ -37,8 +37,20 @@
 32. White Version
 ----------------------------*/
 /* Default  */
+/* Chrome, Safari, Edge, Opera */
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 :root {
   --color-primary: #ff014f;
   --color-secondary: #f4f5f6;
@@ -20628,4 +20640,4 @@ body.white-version {
   color: var(--color-white) !important;
 }
 
-/*# sourceMappingURL=style.css.map */
+sourceMappingURL=style.css.map 
